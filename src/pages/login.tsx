@@ -5,11 +5,16 @@ import PageWithLayoutType from '@/types/pageWithLayout';
 import { useTranslation } from 'next-i18next';
 import LoginLayout from '@/templates/LoginLayout';
 import { wrapper } from '@/constants/configureStore';
+import SigninForm from '@/organisms/SigninForm';
 
-const Login: NextPage = () => {
+const login: NextPage = () => {
   const { t } = useTranslation('common');
 
-  return <>{t('common:auth.login')}</>;
+  return (
+    <>
+      <SigninForm />
+    </>
+  );
 };
 
 export const getStaticProps = wrapper.getStaticProps(store => async context => {
@@ -22,6 +27,6 @@ export const getStaticProps = wrapper.getStaticProps(store => async context => {
   };
 });
 
-(Login as PageWithLayoutType).layout = LoginLayout;
+(login as PageWithLayoutType).layout = LoginLayout;
 
-export default Login;
+export default login;

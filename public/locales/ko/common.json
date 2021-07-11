@@ -1,37 +1,306 @@
 {
   "company": {
     "name": {
-      "ko": "",
-      "en": ""
+      "ko": "(주)34일",
+      "en": "Day34 Inc"
     },
     "address": {
       "key": "주소",
-      "value": ""
+      "value": "경기도 수원시 영통구 봉영로 1612 보보스프라자 709-43호"
     },
     "ceo": {
       "key": "대표 이사",
-      "value": ""
+      "value": "김태형"
     },
     "crn": {
       "key": "사업자등록번호",
-      "value": ""
+      "value": "191-81-00794"
     },
     "email": {
       "key": "전자우편",
-      "value": ""
+      "value": "nida@nida.io"
     },
     "tel": {
       "key": "전화번호",
-      "value": ""
+      "value": "070-8064-5064"
     }
   },
   "brand": {
-    "name": "브랜드",
-    "slogan": "",
-    "startYear": 2020
+    "name": "니다닷컴",
+    "slogan": "재밌는 URL 생성기",
+    "startYear": 2019
+  },
+  "header": {
+    "navigation": {
+      "product": "상품 소개",
+      "login": "로그인/회원가입"
+    }
+  },
+  "footer": {
+    "navigation": {
+      "introduce": "서비스 소개",
+      "terms": "서비스 이용약관",
+      "privacy": "개인정보 취급방침",
+      "support": "고객센터"
+    },
+    "copyright": "Copyright ⓒ {{year}} {{company}}. All rights reserved."
+  },
+  "linkGenerator": {
+    "step1": {
+      "title": "재미난 URL 만들어주고 시펑",
+      "next": "링크 만들기",
+      "loading": "링크 추천중"
+    },
+    "step2": {
+      "form": {
+        "placeholder": "발급 준비중입니다"
+      },
+      "prev": "다시 입력하기",
+      "next": "링크 선택하기"
+    },
+    "step3": {
+      "tip": "TIP! 회원가입 하시면 차후 원본 URL의 링크를 변경 하실 수 있습니다.",
+      "prev": "다시 선택하기",
+      "next": "링크 연결하기"
+    },
+    "step4": {
+      "form": {
+        "placeholder": "도메인을 발급하였습니다"
+      },
+      "tip": "충분히 테스트해보실 수 있도록 1시간 동안 링크를 무상 제공합니다.\n계속 사용하시려면 1시간 이내로 회원 레벨을 올려주시기 바랍니다.",
+      "done": "링크 완료",
+      "copy": "복사하기",
+      "login": "로그인"
+    }
+  },
+
+  "pricing": {
+    "title": "가격표",
+    "description": " 무료로 가볍게 이용하실 수 있는 베이직 레벨부터 전문 마케터를 위한 프리미엄 레벨까지! 다양한 상황에 맞춰 니다닷컴의 링크를 활용해 보세요.",
+    "tires": {
+      "basic": {
+        "title": "베이직",
+        "descriptions": "링크 1개, 베이직 도메인, 14일 보유, 리포트 (1주일 지원)",
+        "process": "회원가입시 무료"
+      },
+      "plus": {
+        "title": "플러스",
+        "descriptions": "링크 10개, 플러스 도메인, 무제한, 리포트 지원, 이메일 지원",
+        "process": "결제하기"
+      },
+      "premium": {
+        "title": "프리미엄",
+        "subTitle": "인기 상품",
+        "descriptions": "링크 30개, 플러스 도메인, 무제한, 리포트 지원, 이메일 지원",
+        "process": "결제하기"
+      },
+      "business": {
+        "title": "비즈니스",
+        "descriptions": "링크 100개, 플러스 도메인, 무제한, 리포트 지원, 원본 데이터 제공, 커스텀 도메인 지원, 이메일 지원",
+        "process": "결제하기"
+      }
+    }
+  },
+  "account": {
+    "provider": "가입방식",
+    "email": "이메일",
+    "name": "이름",
+    "createdAt": "가입일",
+    "changePassword": "비밀번호 변경",
+    "withdrawal": "탈퇴"
+  },
+  "paymentForm": {
+    "product": "상품명",
+    "range": "기간",
+    "price": "금액",
+    "etc": "기타",
+    "vat": "(부가세 포함)",
+    "tmp": "매월 자동 결제 됩니다",
+    "process": "결제하기"
+  },
+  "inquiryForm": {
+    "type": "문의 유형",
+    "file": {
+      "label": "파일 업로드",
+      "placeholder": "파일을 등록해주세요",
+      "helper": "꼭 올려주세요",
+      "error": {
+        "count": "파일 개수를 초과했습니다"
+      }
+    },
+    "save": "저장",
+    "cancel": "취소"
+  },
+  "PaymentForm": {
+    "step1": {
+      "product": "상품명",
+      "range": "기간",
+      "agree": "매월 자동 결제를 신청합니다",
+      "process": "다음 단계로"
+    },
+    "step2": {
+      "card": {
+        "title": "카드 종류",
+        "type": {
+          "person": "개인",
+          "company": "법인"
+        }
+      },
+      "agree" : "주문하실 상품 및 결제 정보를 확인하였으며 이에 동의합니다.(필수)",
+      "process": "결제하기"
+    },
+    "step3": {
+      "orderNumber": "주문번호",
+      "product": "상품명",
+      "range": "기간",
+      "result": "결제결과",
+      "schedule": "다음 결제일",
+      "process": "홈으로"
+    }
+  },
+  "validation": {
+    "nidaUrl": {
+      "title": "니다 URL",
+      "placeholder": "발급받고 싶은 URL 혹은 문장을 자유롭게 입력해주세요. (예시: 안녕하세요)",
+      "error": {
+        "specific": "특수문자를 사용하였습니다",
+        "empty": "빈값을 입력하였습니다"
+      }
+    },
+    "url": {
+      "title": "URL",
+      "placeholder": "원본 URL 주소를 입력해주세요.",
+      "error": {
+        "url": "url 포맷이 아닙니다",
+        "specific": "특수문자를 사용하였습니다",
+        "empty": "빈값을 입력하였습니다"
+      }
+    },
+    "name": {
+      "title": "이름",
+      "placeholder": "이름을 입력하세요.",
+      "error": {
+        "format": "이름 형식이 아닙니다.",
+        "empty": "빈값을 입력하였습니다"
+      }
+    },
+    "email": {
+      "title": "이메일",
+      "placeholder": "이메일을 입력하세요.",
+      "error": {
+        "format": "이메일 형식이 아닙니다.",
+        "empty": "빈값을 입력하였습니다"
+      }
+    },
+    "password": {
+      "title": "비밀번호",
+      "placeholder": "비밀번호를 입력하세요.",
+      "error": {
+        "format": "대소문자, 숫자, 특수문자를 포함한 8자 이상을 입력하세요.",
+        "empty": "빈값을 입력하였습니다"
+      }
+    },
+    "title": {
+      "title": "제목",
+      "placeholder": "제목을 입력하세요.",
+      "error": {
+        "format": "",
+        "empty": ""
+      }
+    },
+    "content": {
+      "title": "내용",
+      "placeholder": "내용을 입력하세요.",
+      "error": {
+        "format": "",
+        "empty": ""
+      }
+    },
+    "phone": {
+      "title": "연락처",
+      "placeholder": "연락처를 입력하세요.",
+      "error": {
+        "format": "",
+        "empty": ""
+      }
+    },
+    "cardNumber": {
+      "title": "카드번호",
+      "placeholder": "카드번호를 입력하세요.",
+      "error": {
+        "format": "",
+        "empty": ""
+      }
+    },
+    "expDate": {
+      "title": "유효기간 (월/년)",
+      "placeholder": "유효기간을 입력하세요.",
+      "error": {
+        "format": "",
+        "empty": ""
+      }
+    },
+    "expYear": {
+      "title": "유효기간 (년)",
+      "placeholder": "유효기간 (년)을 입력하세요.",
+      "error": {
+        "format": "",
+        "empty": ""
+      }
+    },
+    "expMonth": {
+      "title": "유효기간 (월)",
+      "placeholder": "유효기간 (월)을 입력하세요.",
+      "error": {
+        "format": "",
+        "empty": ""
+      }
+    },
+    "cardPassword": {
+      "title": "비밀번호",
+      "placeholder": "2자리를 입력하세요",
+      "error": {
+        "format": "",
+        "empty": ""
+      }
+    },
+    "birthYear": {
+      "title": "주민번호 앞자리",
+      "placeholder": "주민번호를 앞자리를 입력하세요.",
+      "error": {
+        "format": "",
+        "empty": ""
+      }
+    }
   },
   "auth": {
-    "login": "로그인",
-    "logout": "로그아웃"
+    "signIn": {
+      "title": "로그인",
+      "sns": {
+        "google": "G",
+        "facebook": "F",
+        "kakao": "K"
+      },
+      "rememberMe": "자동 로그인",
+      "process": "로그인",
+      "forgotPassword": "비밀번호 찾기",
+      "notAccount": "아직 회원이 아니신가요? 회원가입"
+    },
+    "signUp": {
+      "title": "회원가입",
+      "agree": "이용약관, 개인정보 수집 내용에 동의합니다",
+      "forgotPassword": "비밀번호 찾기",
+      "alreadyAccount": "회원이십니까? 로그인",
+      "process": "회원가입"
+    },
+    "forgotPassword": {
+      "title": "비밀번호 찾기",
+      "process": "비밀번호 찾기"
+    },
+    "changePassword": {
+      "": "현재 비밀번호",
+      "2": "새로운 비밀번호",
+      "3": "새로운 비밀번호 확인"
+    }
   }
 }
