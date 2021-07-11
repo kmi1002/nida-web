@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/src/*": ["./src/*"],
+      "@/apis/*": ["./src/apis/*"],
+      "@/assets/*": ["./src/assets/*"],
+      "@/images/*": ["./src/assets/images/*"],
+      "@/styles/*": ["./src/assets/styles/*"],
+      "@/components/*": ["./src/components/*"],
+      "@/atoms/*": ["./src/components/atoms/*"],
+      "@/molecules/*": ["./src/components/molecules/*"],
+      "@/organisms/*": ["./src/components/organisms/*"],
+      "@/templates/*": ["./src/components/templates/*"],
+      "@/constants/*": ["./src/constants/*"],
+      "@/dummies/*": ["./src/dummies/*"],
+      "@/helpers/*": ["./src/helpers/*"],
+      "@/hooks/*": ["./src/hooks/*"],
+      "@/pages/*": ["./src/pages/*"],
+      "@/sagas/*": ["./src/sagas/*"],
+      "@/stores/*": ["./src/stores/*"],
+      "@/types/*": ["./src/types/*"]
+    }
+  }
+}
